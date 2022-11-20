@@ -13,7 +13,7 @@
 		// WARNING: this doesn't include sanitization
 		// and validation
 		//---------------------------------------------
-		if (isset($_POST['first'], $_POST['second']),$_POST['third']),$_POST['fourth']),$_POST['fifth']),$_POST['sixth']),) {
+		if (isset($_POST['first'], $_POST['second']),$_POST['third']),$_POST['fourth']),$_POST['fifth']),$_POST['sixth'])) {
 			$first = $_POST['first'];
 			$second = $_POST['second'];
 			$third = $_POST['third'];
