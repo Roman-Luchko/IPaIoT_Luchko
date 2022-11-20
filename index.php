@@ -26,7 +26,7 @@
 			//echo "fifth $fifth<br>";
 			//echo "sixth $sixth<br>";
 			//echo "seventh $seventh<br>";
-			$f = fopen("qwerty_ggg.txt", 'a+') or die("не удалось создать файл");
+			$f = fopen("qwerty_ggg.txt", 'a+') or die("file not found");
 			
 			fwrite($f," Date -> ");
 			fwrite($f, $first);
