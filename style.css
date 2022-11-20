@@ -2,8 +2,6 @@ body{
     background-color: #EF1313; /* Цвет фона веб-страницы */
    }
 form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
     }
