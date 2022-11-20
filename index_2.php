@@ -4,5 +4,5 @@ $str = "Привет мир";
 fwrite($fd, $str);
 fclose($fd);
 ?>
-?>
+
 
