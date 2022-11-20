@@ -27,5 +27,5 @@ fwrite($f,$_POST['third']);
 fwrite($f,$_POST['fourth']);
 fwrite($f,$_POST['fifth']);
 fwrite($f,$_POST['sixth']);
-fclose($f,$f);
+fclose($f);
 ?>
