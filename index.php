@@ -46,27 +46,27 @@
         <form action="" method="post">
 	    <h1>Napíšte žiadosť</h1>
             <div>
-                <label for="first">Name:</label>
-                <input type="text" name="first" required="required" placeholder="Enter first" />
+                <label for="first">Date:</label>
+                <input type="date" name="first" required="required" placeholder="Enter first" />
             </div>
 
             <div>
-                <label for="second">Name:</label>
+                <label for="second">Phone:</label>
                 <input type="text" name="second" required="required" placeholder="Enter second" />
             </div>
 		
 	    <div>
-                <label for="third">Name:</label>
+                <label for="third">County:</label>
                 <input type="text" name="third" required="required" placeholder="Enter third" />
             </div>
 		
 	    <div>
-                <label for="fourth">Name:</label>
+                <label for="fourth">City:</label>
                 <input type="text" name="fourth" required="required" placeholder="Enter fourth" />
             </div>
 	    
 	    <div>
-                <label for="fifth">Name:</label>
+                <label for="fifth">Postcode:</label>
                 <input type="text" name="fifth" required="required" placeholder="Enter fifth" />
             </div>
 	    
@@ -74,7 +74,7 @@
                 <label for="sixth">Name:</label>
                 <input type="text" name="sixth" required="required" placeholder="Enter sixth" />
             </div>
-            <button type="submit">Subscribe</button>
+            <button type="submit">Massage</button>
         </form>
     </main>
 </body>
