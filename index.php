@@ -34,6 +34,13 @@ fwrite($f,$fourth);
 fwrite($f,$fifth);
 fwrite($f,$sixth);
 
+echo "echo "$first $first";
+echo "$second $second";
+echo "$third $third";
+echo "$fourth $fourth";
+echo "$fifth $fifth";
+echo "$sixth $sixth";
+
 
 fclose($f);
 ?>
