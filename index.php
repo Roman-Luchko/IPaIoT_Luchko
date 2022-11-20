@@ -29,7 +29,7 @@
 			echo "fifth $fifth<br>";
 			echo "sixth $sixth<br>";
 	
-			$f = fopen("hello.txt", 'w') or die("не удалось создать файл");
+			$f = fopen("qwerty_ggg.txt", 'w') or die("не удалось создать файл");
 			fwrite($f, $first);
 			fwrite($f, $second);
 			fwrite($f, $third);
