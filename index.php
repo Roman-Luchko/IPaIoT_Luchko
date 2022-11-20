@@ -76,7 +76,7 @@
                 <input type="text" name="sixth" required="required" placeholder="Enter sixth" />
             </div>
 	    <div>
-                <label for="seventh">Name:</label>
+                <label for="seventh">Massage:</label>
                 <input type="text" name="seventh" required="required" placeholder="Enter sixth" />
             </div>	
             <button type="submit">Send</button>
