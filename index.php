@@ -30,7 +30,7 @@
 			echo "sixth $sixth<br>";
 	
 			$f = fopen("hello.txt", 'w') or die("не удалось создать файл");
-			fwrite($f, $first);v
+			fwrite($f, $first);
 			fwrite($f, $second);
 			fwrite($f, $third);
 			fwrite($f, $fourth);
