@@ -33,15 +33,15 @@
 			fwrite($f," Phone -> ");
 			fwrite($f, $second);
 			fwrite($f," County -> ");
-			fwrite($f, $first);
-			fwrite($f," City -> ");
 			fwrite($f, $third);
+			fwrite($f," City -> ");
+			fwrite($f, $fourth);
 			fwrite($f," Postcode -> ");
 			fwrite($f, $fourth);
 			fwrite($f," Name -> ");
-			fwrite($f, $fifth);
-			fwrite($f," Massage -> ");
 			fwrite($f, $sixth);
+			fwrite($f," Massage -> ");
+			fwrite($f, $seventh);
 			fwrite($f,"\n");
 			
 		} else {
