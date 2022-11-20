@@ -52,7 +52,7 @@
 
             <div>
                 <label for="second">Phone:</label>
-                <input type="text" name="second" required="required" placeholder="Enter second" />
+                <input type="tel" name="second" required="required" placeholder="Enter second" />
             </div>
 		
 	    <div>
