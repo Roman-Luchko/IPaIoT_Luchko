@@ -37,32 +37,32 @@
         <form action="" method="post">
             <div>
                 <label for="first">Name:</label>
-                <input type="text" name="name" required="required" placeholder="Enter first" />
+                <input type="text" name="first" required="required" placeholder="Enter first" />
             </div>
 
             <div>
                 <label for="second">Name:</label>
-                <input type="text" name="name" required="required" placeholder="Enter second" />
+                <input type="text" name="second" required="required" placeholder="Enter second" />
             </div>
 		
 	    <div>
                 <label for="third">Name:</label>
-                <input type="text" name="name" required="required" placeholder="Enter third" />
+                <input type="text" name="third" required="required" placeholder="Enter third" />
             </div>
 		
 	    <div>
                 <label for="fourth">Name:</label>
-                <input type="text" name="name" required="required" placeholder="Enter fourth" />
+                <input type="text" name="fourth" required="required" placeholder="Enter fourth" />
             </div>
 	    
 	    <div>
                 <label for="fifth">Name:</label>
-                <input type="text" name="name" required="required" placeholder="Enter fifth" />
+                <input type="text" name="fifth" required="required" placeholder="Enter fifth" />
             </div>
 	    
 	    <div>
                 <label for="sixth">Name:</label>
-                <input type="text" name="name" required="required" placeholder="Enter sixth" />
+                <input type="text" name="sixth" required="required" placeholder="Enter sixth" />
             </div>
             <button type="submit">Subscribe</button>
         </form>
