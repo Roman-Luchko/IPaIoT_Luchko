@@ -42,8 +42,9 @@
 		//}
 	?>
     <main>
-	    <h1>Napíšte žiadosť</h1>
+	    
         <form action="" method="post">
+	    <h1>Napíšte žiadosť</h1>
             <div>
                 <label for="first">Name:</label>
                 <input type="text" name="first" required="required" placeholder="Enter first" />
