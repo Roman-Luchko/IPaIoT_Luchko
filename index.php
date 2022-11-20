@@ -1,39 +1,43 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Registration Form</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>PHP Form Demo</title>
 </head>
 <body>
+	<?php
 
-    <?php if (isset($_POST['form_submitted'])): ?> //this code is executed when the form is submitted
+		//---------------------------------------------
+		// WARNING: this doesn't include sanitization
+		// and validation
+		//---------------------------------------------
+		if (isset($_POST['name'], $_POST['email'])) {
+			$name = $_POST['name'];
+			$email = $_POST['email'];
 
-        <h2>Thank You <?php echo $_POST['firstname']; ?> </h2>
+			// show the $name and $email
+			echo "Thanks $name for your subscription.<br>";
+			echo "Please confirm it in your inbox of the email $email.";
+		} else {
+			echo 'You need to provide your name and email address.';
+		}
+	?>
+    <main>
+        <form action="" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" required="required" placeholder="Enter your name" />
+            </div>
 
-        <p>You have been registered as
-            <?php echo $_POST['firstname'] . ' ' . $_POST['lastname']; ?>
-        </p>
+            <div>
+                <label for="name">Email:</label>
+                <input type="email" name="email" required="required" placeholder="Enter your email" />
+            </div>
 
-        <p>Go <a href="/registration_form.php">back</a> to the form</p>
-
-        <?php else: ?>
-
-            <h2>Registration Form</h2>
-
-            <form action="registration_form.php" method="POST">
-
-                 First name:
-                <input type="text" name="firstname">
-                
-                <br> Last name:
-                <input type="text" name="lastname">
-                
-			<input type="hidden" name="form_submitted" value="1" />
-
-                <input type="submit" value="Submit">
-
-            </form>
-
-      <?php endif; ? > 
-</body> 
+            <button type="submit">Subscribe</button>
+        </form>
+    </main>
+</body>
 </html>
