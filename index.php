@@ -1,27 +1,39 @@
+<html>
+<head>
+	<title>Registration Form</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+</head>
+<body>
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Qwr</title>
-    </head>
-    <body>
-     <?php
-        $f = fopen('result.txt', 'w+');
-        $first = $_POST['first']; 
-        $second = $_POST['second']; 
-        fwrite($f,$first);
-        fwrite($f,$second);
-        echo "first $first";
-        echo "second $second";
-        fclose($f);
-    ?>
-        <form action="">
-            <input type = "text" name="first" value = "first" />
-            <input type = "text" name="second" value = "second" />
-            <input type="submit" name = "sub" value="Button" />
-        </form>
-    </body>
-    </html>
+    <?php if (isset($_POST['form_submitted'])): ?> //this code is executed when the form is submitted
 
+        <h2>Thank You <?php echo $_POST['firstname']; ?> </h2>
+
+        <p>You have been registered as
+            <?php echo $_POST['firstname'] . ' ' . $_POST['lastname']; ?>
+        </p>
+
+        <p>Go <a href="/registration_form.php">back</a> to the form</p>
+
+        <?php else: ?>
+
+            <h2>Registration Form</h2>
+
+            <form action="registration_form.php" method="POST">
+
+                 First name:
+                <input type="text" name="firstname">
+                
+                <br> Last name:
+                <input type="text" name="lastname">
+                
+			<input type="hidden" name="form_submitted" value="1" />
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+      <?php endif; ? > 
+</body> 
+</html>
