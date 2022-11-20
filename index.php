@@ -37,7 +37,7 @@
 			fwrite($f," City -> ");
 			fwrite($f, $fourth);
 			fwrite($f," Postcode -> ");
-			fwrite($f, $fourth);
+			fwrite($f, $fifth);
 			fwrite($f," Name -> ");
 			fwrite($f, $sixth);
 			fwrite($f," Massage -> ");
