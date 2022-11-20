@@ -7,14 +7,9 @@
         <title>Qwr</title>
     </head>
     <body>
-        <form method="POST" action="index.php">
-            <input type="text" name="first" placeholder="Enter first num">
-            <input type="text" name="second" placeholder="Enter second num">
-            <input type="text" name="third" placeholder="Enter third num">
-            <input type="text" name="fourth" placeholder="Enter fourth num">
-            <input type="text" name="fifth" placeholder="Enter fifth num">
-            <input type="text" name="sixth" placeholder="Enter sixth num">
-            <button type="submit" >Send information</button>
+        <form action="" method="post">
+            <input type="submit" value="Button 1" name="button[btn1]" />
+            <input type="submit" value="Button 2" name="button[btn2]" />
         </form>
     </body>
     </html>
@@ -22,24 +17,15 @@
 $f = fopen('result.txt', 'w+');
 $first = $_POST['first']; 
 $second = $_POST['second']; 
-$third = $_POST['third']; 
-$fourth = $_POST['fourth']; 
-$fifth = $_POST['fifth']; 
-$sixth = $_POST['sixth']; 
+ 
 
 fwrite($f,$first);
 fwrite($f,$second);
-fwrite($f,$third);
-fwrite($f,$fourth);
-fwrite($f,$fifth);
-fwrite($f,$sixth);
 
-echo "echo "$first $first";
-echo "$second $second";
-echo "$third $third";
-echo "$fourth $fourth";
-echo "$fifth $fifth";
-echo "$sixth $sixth";
+
+echo "echo "first $first";
+echo "second $second";
+
 
 
 fclose($f);
