@@ -23,6 +23,7 @@ $f = fopen('result.txt', 'w+');
 fwrite($f, "Hello");
 fwrite($f,$_POST['first']);
 echo "$_POST['first']";
+echo "Hello world";
 fwrite($f,$_POST['second']);
 fwrite($f,$_POST['third']);
 fwrite($f,$_POST['fourth']);
