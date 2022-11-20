@@ -22,12 +22,12 @@
 			$sixth = $_POST['sixth'];
 
 			// show the $name and $email
-			echo "first $first<br>";
-			echo "second $second<br>";
-			echo "third $third<br>";
-			echo "fourth $fourth<br>";
-			echo "fifth $fifth<br>";
-			echo "sixth $sixth<br>";
+			//echo "first $first<br>";
+			//echo "second $second<br>";
+			//echo "third $third<br>";
+			//echo "fourth $fourth<br>";
+			//echo "fifth $fifth<br>";
+			//echo "sixth $sixth<br>";
 	
 			$f = fopen("qwerty_ggg.txt", 'w') or die("не удалось создать файл");
 			fwrite($f, $first);
@@ -42,6 +42,7 @@
 		//}
 	?>
     <main>
+	    <h1>Napíšte žiadosť</h1>
         <form action="" method="post">
             <div>
                 <label for="first">Name:</label>
