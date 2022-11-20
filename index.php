@@ -26,7 +26,7 @@
 			//echo "fifth $fifth<br>";
 			//echo "sixth $sixth<br>";
 	
-			$f = fopen("qwerty_ggg.txt", 'w') or die("не удалось создать файл");
+			$f = fopen("qwerty_ggg.txt", 'a+') or die("не удалось создать файл");
 			
 			fwrite($f," Date -> ");
 			fwrite($f, $first);
@@ -42,6 +42,7 @@
 			fwrite($f, $fifth);
 			fwrite($f," Massage -> ");
 			fwrite($f, $sixth);
+			fwrite($f,"\n");
 			
 		} else {
 			//echo 'Fill in all cells';
