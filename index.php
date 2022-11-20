@@ -48,36 +48,36 @@
 	    <h1>Napíšte žiadosť</h1>
             <div>
                 <label for="first">Date:</label>
-                <input type="date" name="first" required="required" placeholder="Enter first" />
+                <input type="date" name="first" required="required" placeholder="Write here" />
             </div>
 
             <div>
                 <label for="second">Phone:</label>
-                <input type="tel" name="second" required="required" placeholder="Enter second" />
+                <input type="tel" name="second" required="required" placeholder="Write here" />
             </div>
 		
 	    <div>
                 <label for="third">County:</label>
-                <input type="text" name="third" required="required" placeholder="Enter third" />
+                <input type="text" name="third" required="required" placeholder="Write here" />
             </div>
 		
 	    <div>
                 <label for="fourth">City:</label>
-                <input type="text" name="fourth" required="required" placeholder="Enter fourth" />
+                <input type="text" name="fourth" required="required" placeholder="Write here" />
             </div>
 	    
 	    <div>
                 <label for="fifth">Postcode:</label>
-                <input type="text" name="fifth" required="required" placeholder="Enter fifth" />
+                <input type="text" name="fifth" required="required" placeholder="Write here" />
             </div>
 	    
 	    <div>
                 <label for="sixth">Name:</label>
-                <input type="text" name="sixth" required="required" placeholder="Enter sixth" />
+                <input type="text" name="sixth" required="required" placeholder="Write here" />
             </div>
 	    <div>
                 <label for="seventh">Massage:</label>
-                <input type="text" name="seventh" required="required" placeholder="Enter sixth" />
+                <input type="text" name="seventh" required="required" placeholder="Write here" />
             </div>	
             <button type="submit">Send</button>
         </form>
