@@ -19,7 +19,7 @@
     </body>
     </html>
 <?php
-$f = fopen('result.txt', 'r+');
+$f = fopen('result.txt', 'w');
 fwrite($_POST['first']);
 fwrite($_POST['second']);
 fwrite($_POST['third']);
