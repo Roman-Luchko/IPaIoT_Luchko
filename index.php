@@ -20,14 +20,20 @@
     </html>
 <?php
 $f = fopen('result.txt', 'w+');
-fwrite($f, "Hello");
-fwrite($f,$_POST['first']);
-echo "Hello world";
-echo "$_POST['first']";
-fwrite($f,$_POST['second']);
-fwrite($f,$_POST['third']);
-fwrite($f,$_POST['fourth']);
-fwrite($f,$_POST['fifth']);
-fwrite($f,$_POST['sixth']);
+$first = $_POST['first']; 
+$second = $_POST['second']; 
+$third = $_POST['third']; 
+$fourth = $_POST['fourth']; 
+$fifth = $_POST['fifth']; 
+$sixth = $_POST['sixth']; 
+
+fwrite($f,$first);
+fwrite($f,$second);
+fwrite($f,$third);
+fwrite($f,$fourth);
+fwrite($f,$fifth);
+fwrite($f,$sixth);
+
+
 fclose($f);
 ?>
