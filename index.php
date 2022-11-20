@@ -51,7 +51,7 @@
     <main>
 	    
         <form action="" method="post">
-	    <h1>Napíšte žiadosť</h1>
+	    <h1>Write an application</h1>
             <div>
                 <label for="first">Date:</label>
                 <input type="date" name="first" required="required" placeholder="Write here" />
