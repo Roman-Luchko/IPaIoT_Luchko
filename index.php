@@ -26,4 +26,5 @@ fwrite($_POST['third']);
 fwrite($_POST['fourth']);
 fwrite($_POST['fifth']);
 fwrite($_POST['sixth']);
+fclose($f);
 ?>
