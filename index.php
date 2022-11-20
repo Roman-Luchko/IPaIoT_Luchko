@@ -20,6 +20,7 @@
     </html>
 <?php
 $f = fopen('result.txt', 'w+');
+fwrite($f, "Hello");
 fwrite($f,$_POST['first']);
 fwrite($f,$_POST['second']);
 fwrite($f,$_POST['third']);
