@@ -19,12 +19,12 @@
     </body>
     </html>
 <?php
-$f = fopen('result.txt', 'w');
-fwrite($_POST['first']);
-fwrite($_POST['second']);
-fwrite($_POST['third']);
-fwrite($_POST['fourth']);
-fwrite($_POST['fifth']);
-fwrite($_POST['sixth']);
-fclose($f);
+$f = fopen('result.txt', 'w+');
+fwrite($f,$_POST['first']);
+fwrite($f,$_POST['second']);
+fwrite($f,$_POST['third']);
+fwrite($f,$_POST['fourth']);
+fwrite($f,$_POST['fifth']);
+fwrite($f,$_POST['sixth']);
+fclose($f,$f);
 ?>
