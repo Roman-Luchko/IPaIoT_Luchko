@@ -28,6 +28,14 @@
 			echo "fourth $fourth<br>";
 			echo "fifth $fifth<br>";
 			echo "sixth $sixth<br>";
+	
+			$f = fopen("hello.txt", 'w') or die("не удалось создать файл");
+			fwrite($f, $first);v
+			fwrite($f, $second);
+			fwrite($f, $third);
+			fwrite($f, $fourth);
+			fwrite($f, $fifth);
+			fwrite($f, $sixth);
 			
 		//} else {
 			//echo 'You need to provide your name and email address.';
