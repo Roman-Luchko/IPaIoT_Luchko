@@ -27,11 +27,20 @@
 			//echo "sixth $sixth<br>";
 	
 			$f = fopen("qwerty_ggg.txt", 'w') or die("не удалось создать файл");
+			
+			fwrite($f," Date -> ");
 			fwrite($f, $first);
+			fwrite($f," Phone -> ");
 			fwrite($f, $second);
+			fwrite($f," County -> ");
+			fwrite($f, $first);
+			fwrite($f," City -> ");
 			fwrite($f, $third);
+			fwrite($f," Postcode -> ");
 			fwrite($f, $fourth);
+			fwrite($f," Name -> ");
 			fwrite($f, $fifth);
+			fwrite($f," Massage -> ");
 			fwrite($f, $sixth);
 			
 		} else {
