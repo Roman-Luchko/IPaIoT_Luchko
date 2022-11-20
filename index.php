@@ -36,32 +36,32 @@
     <main>
         <form action="" method="post">
             <div>
-                <label for="name">Name:</label>
+                <label for="first">Name:</label>
                 <input type="text" name="name" required="required" placeholder="Enter first" />
             </div>
 
             <div>
-                <label for="name">Name:</label>
+                <label for="second">Name:</label>
                 <input type="text" name="name" required="required" placeholder="Enter second" />
             </div>
 		
 	    <div>
-                <label for="name">Name:</label>
+                <label for="third">Name:</label>
                 <input type="text" name="name" required="required" placeholder="Enter third" />
             </div>
 		
 	    <div>
-                <label for="name">Name:</label>
+                <label for="fourth">Name:</label>
                 <input type="text" name="name" required="required" placeholder="Enter fourth" />
             </div>
 	    
 	    <div>
-                <label for="name">Name:</label>
+                <label for="fifth">Name:</label>
                 <input type="text" name="name" required="required" placeholder="Enter fifth" />
             </div>
 	    
 	    <div>
-                <label for="name">Name:</label>
+                <label for="sixth">Name:</label>
                 <input type="text" name="name" required="required" placeholder="Enter sixth" />
             </div>
             <button type="submit">Subscribe</button>
