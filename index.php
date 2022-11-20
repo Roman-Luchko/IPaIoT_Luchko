@@ -16,7 +16,7 @@
 			$fourth = $_POST['fourth'];
 			$fifth = $_POST['fifth'];
 			$sixth = $_POST['sixth'];
-			$seventh = $_POST['$seventh'];
+			$seventh = $_POST['seventh'];
 
 			// show the $name and $email
 			//echo "first $first<br>";
