@@ -20,6 +20,7 @@
 			$fourth = $_POST['fourth'];
 			$fifth = $_POST['fifth'];
 			$sixth = $_POST['sixth'];
+			$seventh = $_POST['$seventh'];
 
 			// show the $name and $email
 			//echo "first $first<br>";
@@ -74,6 +75,10 @@
                 <label for="sixth">Name:</label>
                 <input type="text" name="sixth" required="required" placeholder="Enter sixth" />
             </div>
+	    <div>
+                <label for="seventh">Name:</label>
+                <input type="text" name="seventh" required="required" placeholder="Enter sixth" />
+            </div>	
             <button type="submit">Send</button>
         </form>
     </main>
