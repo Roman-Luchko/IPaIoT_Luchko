@@ -7,26 +7,19 @@
         <title>Qwr</title>
     </head>
     <body>
-        <form action="" method="post">
-            <input type="submit" value="Button 1" name="button[btn1]" />
-            <input type="submit" value="Button 2" name="button[btn2]" />
+        <form action="">
+            <input type="submit" value="Button 1" name="first" />
+            <input type="submit" value="Button 2" name="second" />
         </form>
     </body>
     </html>
 <?php
 $f = fopen('result.txt', 'w+');
-$first = $_POST['first']; 
-$second = $_POST['second']; 
- 
-
+$first = $_GET['first']; 
+$second = $_GET['second']; 
 fwrite($f,$first);
 fwrite($f,$second);
-
-
-echo "echo "first $first";
+echo "first $first";
 echo "second $second";
-
-
-
 fclose($f);
 ?>
