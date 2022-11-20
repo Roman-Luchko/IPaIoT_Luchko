@@ -2,11 +2,7 @@ body{
     background-color: #EF1313; /* Цвет фона веб-страницы */
    }
 form{
-    position: fixed; /* or absolute */
-    top: 50%;
-    left: 50%;
-    #width: 200px;
-    #height:100px;
-    #background: #f0f0f0;
-
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle
     }
