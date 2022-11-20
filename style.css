@@ -2,7 +2,8 @@ body{
     background-color: #EF1313; /* Цвет фона веб-страницы */
    }
 form{
-    min-height: 10em;
-    display: table-cell;
-    vertical-align: middle
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     }
