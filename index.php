@@ -1,7 +1,7 @@
 <html>
 <body>
 <?php
-echo “Helloooooo”;
+echo 'Helloooooo';
 //$names = $_POST[“names”]; 
 //echo $names;
 ?>
