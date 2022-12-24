@@ -1,7 +1,7 @@
 <html>
 <body>
 <?php
-echo 'Helloooooo';
+echo 'Hello';
 $names = $_GET["names"]; 
 echo $names;
 ?>
