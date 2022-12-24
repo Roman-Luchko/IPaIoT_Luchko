@@ -2,7 +2,7 @@
 <body>
 <?php
 echo 'Helloooooo';
-$names = $_POST["names"]; 
+$names = $_GET["names"]; 
 echo $names;
 ?>
 </body>
