@@ -1,9 +1,8 @@
-<html>
-<body>
 <?php
-echo 'Hello';
-$names = $_POST["names"]; 
-echo $names;
+echo 'Hello ';
+$user = $_POST["user"]; 
+password = $_POST["password"]; 
+echo $user;
 ?>
 </body>
 </html>
