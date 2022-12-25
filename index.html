@@ -1,26 +1,4 @@
-//сам калькулятор
-<?php
-  $number1 = $_POST['number1'];
-  $number2 = $_POST['number2'];
-  $znak = $_POST['znak'];
-  $result = null;
-  if(isset($number1) and isset($number2) and isset($znak)){
-    switch($znak){
-      case '+':
-        $result = $number1 + $number2;
-        break;
-      case = '-':
-        $result = $number1 - $number2;
-        break;
-      case = '/':
-        $result = $number1 / $number2;
-        break;
-      case = '*':
-        $result = $number1 * $number2;
-        break;      
-    }
-  }
-//начальная страница
+начальная страница
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,7 +6,7 @@
     <title>Калькулятор</title>
   </head>
   <body>
-    <form action="" method="post">
+    <form action="kalkulator.php" method="post">
       <p>Number 1</p><input type="text" name="number1" value="">
       <p>Znak</p>
         <select name = "znak">
