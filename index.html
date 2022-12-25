@@ -1,7 +1,7 @@
 <?php
   $number1 = $_POST['number1'];
   $number2 = $_POST['number2'];
-  $znak = $_POST['znak'];
+  $znak = "D";
   $result = null;
   if(isset($number1) and isset($number2)){
     switch($number1){
@@ -39,7 +39,7 @@
       <p>Введите второе число</p><input type="text" name="number2" value="">
       <intput type="submit">
     </form>
-    <?php if(isset($result)){
+    <?php if($znak!= "D")){
       ?>
       <!DOCTYPE html>
         <html lang="ru">
