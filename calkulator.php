@@ -21,3 +21,26 @@
     }
   }
 ?>
+начальная страница
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Калькулятор</title>
+  </head>
+  <body>
+    <form action="calkulator.php" method="post">
+      <p>Number 1</p><input type="text" name="number1" value="">
+      <p>Znak</p>
+        <select name = "znak">
+          <option value="+"><p>+</p></option>
+          <option value="-"><p>-</p></option>
+          <option value="/"><p>/</p></option>
+          <option value="*"><p>*</p></option>
+        </select>
+      <p>Number 2</p><input type="text" name="number2" value="">
+      <input type="submit" value="Submit">
+    </form>
+    <p>Result-> <?php echo $result?>
+  </body>
+</html>
