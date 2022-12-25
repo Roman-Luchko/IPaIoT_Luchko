@@ -1,10 +1,11 @@
+//сам калькулятор
 <?php
   $number1 = $_POST['number1'];
   $number2 = $_POST['number2'];
-  $znak = $POST['znak'];
+  $znak = $_POST['znak'];
   $result = null;
-  if(isset($number1) and isset($number2)){
-    switch($number1){
+  if(isset($number1) and isset($number2) and isset($znak)){
+    switch($znak){
       case '+':
         $result = $number1 + $number2;
         break;
@@ -19,7 +20,7 @@
         break;      
     }
   }
-?>
+//начальная страница
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -39,29 +40,34 @@
       <p>Введите второе число</p><input type="text" name="number2" value="">
       <intput type="submit">
     </form>
-    <?php if($znak!= "D")){
-      <!DOCTYPE html>
-        <html lang="ru">
-          <head>
-            <meta charset="utf-32">
-            <title>Kalkulator</title>
-          </head>
-          <body>
-            <form action="" method="post">
-              <p>Number 1</p><input type="text" name="number1" value="">
-              <p>Znak</p>
-                <select name = "znak">
-                  <option value="+"><p>+</p></option>
-                  <option value="-"><p>+</p></option>
-                  <option value="/"><p>+</p></option>
-                  <option value="*"><p>+</p></option>
-                </select>
-              <p>Number</p><input type="text" name="number2" value="">
-              <intput type="submit">
-            </form>
-            <p>Result -><?php echo $result></p>
-      }
-    ?>
   </body>
+</html>
+//результат работы php
+<?php if(isset($result)){?>
+  <!DOCTYPE html>
+    <html lang="ru">
+      <head>
+        <meta charset="utf-32">
+        <title>Калькулятор</title>
+      </head>
+      <body>
+        <form action="" method="post">
+          <p>Введите первое число</p><input type="text" name="number1" value="">
+          <p>Введите знак</p>
+            <select name = "znak">
+              <option value="+"><p>+</p></option>
+              <option value="-"><p>+</p></option>
+              <option value="/"><p>+</p></option>
+              <option value="*"><p>+</p></option>
+            </select>
+          <p>Введите второе число</p><input type="text" name="number2" value="">
+          <intput type="submit">
+        </form>
+        <p>Ваш результат<?php echo $result></p>
+      </body>
+    </html>
+<?php } ?>
+    
+  
     
     
