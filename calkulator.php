@@ -1,4 +1,3 @@
-//сам калькулятор
 <?php
   $number1 = $_POST['number1'];
   $number2 = $_POST['number2'];
@@ -21,7 +20,6 @@
     }
   }
 ?>
-начальная страница
 <!DOCTYPE html>
 <html lang="en">
   <head>
