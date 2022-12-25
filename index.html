@@ -1,7 +1,7 @@
 <?php
   $number1 = $_POST['number1'];
   $number2 = $_POST['number2'];
-  $znak = "D";
+  $znak = $POST['znak'];
   $result = null;
   if(isset($number1) and isset($number2)){
     switch($number1){
@@ -40,7 +40,6 @@
       <intput type="submit">
     </form>
     <?php if($znak!= "D")){
-      ?>
       <!DOCTYPE html>
         <html lang="ru">
           <head>
@@ -61,7 +60,8 @@
               <intput type="submit">
             </form>
             <p>Result -><?php echo $result></p>
-    }
+      }
+    ?>
   </body>
     
     
