@@ -6,5 +6,5 @@ $f = fopen('text.txt',"r");
 $ftext = fgets($f, 999);
 echo $ftext."";
 echo 'hhh';
-echo file_get_contents("myfile.txt")
+echo file_get_contents("text.txt")
 ?>
