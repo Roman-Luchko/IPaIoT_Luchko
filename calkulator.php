@@ -19,7 +19,7 @@ if(pocet == 10){
   $file = fopen('text.txt',"w+");
   fclose($file);
 }
-pocet++;
+$pocet = $pocet + 1;
 ?>
 <html>
   <head>
