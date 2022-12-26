@@ -19,6 +19,16 @@
         break;      
     }
   }
+
+$sql_ip = "mysqlluchko.mysql.database.azure.com";
+$sql_name = "rl718un";
+$sql_pass = "Uj*hm9e2";
+$sql_base = "testdatabase"
+  
+$connection = mysqli_connect($sql_ip,$sql_name,$sql_pass,$sql_base);
+$res_sql = mysqli_query($connection,"SELECT * FROM 'users'");
+$user = mysqli_fetch_assoc($res_sql);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -40,5 +50,6 @@
       <input type="submit" value="Submit">
     </form>
     <p>Result-> <?php echo $result?>
+    <p>Pervoe znacenie z mysql -> <?php pritn_r($user) ?></p>
   </body>
 </html>
