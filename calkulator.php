@@ -20,10 +20,10 @@
     }
   }
 
-$sql_ip = "mysqlluchko.mysql.database.azure.com";
-$sql_name = "rl718un";
-$sql_pass = "Uj*hm9e2";
-$sql_base = "testdatabase";
+$sql_ip = 'mysqlluchko.mysql.database.azure.com';
+$sql_name = 'rl718un';
+$sql_pass = 'Uj*hm9e2';
+$sql_base = 'testdatabase';
   
 $connection = mysqli_connect($sql_ip,$sql_name,$sql_pass,$sql_base);
 $res_sql = mysqli_query($connection,"SELECT * FROM 'users'");
