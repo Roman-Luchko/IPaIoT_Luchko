@@ -1,8 +1,5 @@
 <?php
-  $sql_ip = 'mysqlluchko.mysql.database.azure.com';
-  $sql_name = 'rl718un';
-  $sql_pass = 'Uj*hm9e2';
-  $sql_base = 'testdatabase';
+
   
   $serverName = "mysqlluchko.mysql.database.azure.com"; 
   $connectionInfo = array( "Database"=>"testdatabase", "UID"=>"rl718un", "PWD"=>"Uj*hm9e2");
