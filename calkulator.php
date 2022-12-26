@@ -48,6 +48,6 @@
       <input type="submit" value="Submit">
     </form>
     <p>Result-> <?php echo $result?>
-    <p>Pervoe znacenie z mysql -> <?php pritn_r($user) ?></p>
+    <p>Pervoe znacenie z mysql -> <?php pritn_r($conn) ?></p>
   </body>
 </html>
