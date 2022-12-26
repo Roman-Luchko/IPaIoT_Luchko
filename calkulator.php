@@ -1,6 +1,6 @@
 <?php
 $file = fopen('text.txt',"a");
-fwrite($file,"Hello World\r\n");
+fwrite($file,"Hello Worl\r\n");
 fclose($file);
 $f = fopen('text.txt',"r");
 $ftext = fgets($f, 999);
