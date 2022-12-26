@@ -4,10 +4,9 @@
   $sql_pass = 'Uj*hm9e2';
   $sql_base = 'testdatabase';
   
-  $connection = mysqli_connect($sql_ip,$sql_name,$sql_pass,$sql_base);
-  $res_sql = mysqli_query($connection,"SELECT * FROM 'users'");
-  $user = mysqli_fetch_assoc($res_sql);
-
+  $serverName = "mysqlluchko.mysql.database.azure.com"; 
+  $connectionInfo = array( "Database"=>"testdatabase", "UID"=>"rl718un", "PWD"=>"Uj*hm9e2");
+  $conn = sqlsrv_connect( $serverName, $connectionInfo);
 
   $number1 = $_POST['number1'];
   $number2 = $_POST['number2'];
