@@ -5,8 +5,8 @@ $result = explode(" ",$result);
 $pocet = 0;
 foreach($result as $i){
   echo $i;
-  echo pocet;
-  pocet += 1;
+  echo $pocet;
+  pocet++;
 }
 fclose($text);
 ?>
