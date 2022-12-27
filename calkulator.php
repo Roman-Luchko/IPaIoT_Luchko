@@ -6,12 +6,6 @@ fclose($text);
 $text = fopen("text.txt",'r');
 $result = fgets($text);
 $result = explode(" ",$result);
-echo "result ->".$result[0];
-$pocet = 0;
-foreach($result as $i){
-  echo $i;
-  echo "".$pocet."<br>";
-  $pocet++;
-}
+print_r($result);
 fclose($text);
 ?>
