@@ -1,10 +1,10 @@
 <?php
 $text = fopen("text.txt","w");
-fwrite("ggg");
+fwrite($text,"ggg");
 fclose($text);
 
 $text = fopen("text.txt",'r');
-echo $text;
+$result = fgets($text);
 fclose($text);
 ?>
 
