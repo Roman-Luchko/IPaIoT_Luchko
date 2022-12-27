@@ -1,6 +1,6 @@
 <?php
 $text = fopen("text.txt","w");
-fwrite($text,"ggg\n tt i");
+fwrite($text,"ggg tt i\n");
 fwrite($text,"ddd\n");
 fclose($text);
 
