@@ -8,7 +8,7 @@ $text = fopen("text.txt",'r');
 $result = fgets($text);
 $result = explode(" ",$result);
 forech($result as $i){
-  echo $i
+  echo $i;
 }
 fclose($text);
 ?>
