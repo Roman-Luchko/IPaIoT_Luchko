@@ -6,6 +6,6 @@ fclose($text);
 $text = fopen("text.txt",'r');
 $result = fgets($text);
 $result = explode(" ",$result);
-print_r($result);
+echo $result[0];
 fclose($text);
 ?>
