@@ -1,5 +1,5 @@
 <?php
-$text = fopen("text.txt","w");
+$text = fopen("text.txt","w+");
 fwrite($text,"ggg\n");
 fwrite($text,"ddd\n");
 fclose($text);
