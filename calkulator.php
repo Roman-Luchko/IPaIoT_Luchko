@@ -9,7 +9,7 @@ $result = explode(" ",$result);
 $pocet = 0;
 foreach($result as $i){
   echo $i;
-  echo $pocet;
+  echo "".$pocet."\n";
   $pocet++;
 }
 fclose($text);
