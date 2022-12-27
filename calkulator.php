@@ -6,7 +6,7 @@ $pocet = 0;
 foreach($result as $i){
   echo $i;
   echo $pocet;
-  pocet++;
+  $pocet++;
 }
 fclose($text);
 ?>
