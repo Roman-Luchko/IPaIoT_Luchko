@@ -5,6 +5,7 @@ fclose($text);
 
 $text = fopen("text.txt",'r');
 $result = fgets($text);
+echo $result;
 fclose($text);
 ?>
 
