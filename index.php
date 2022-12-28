@@ -15,11 +15,11 @@
                                         <?php
                                                   $res = $text[0]; 
                                                   $result = explode(" ", $res);
-                                                  print_r($arr);
+                                                  print_r($result);
                                         ?>          
                                         <tr>
-                                                  <td>hhh<?php echo "k"; ?></td>
-                                                  <td>kkk<?php echo $result[1]; ?></td>
+                                                  <td><?php echo $result[1]; ?></td>
+                                                  <td><?php echo $result[1]; ?></td>
                                                   <td></td>
                                                   <td></td>
                                         </tr>
