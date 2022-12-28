@@ -34,6 +34,9 @@
                                         .voda{
                                                   background: #AFEEEE;
                                         }
+                                        td{
+                                                  font-weight: bold;
+                                        }
                               </style>
                     </head>
                     <body>                              
