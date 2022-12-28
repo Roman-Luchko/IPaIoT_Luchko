@@ -47,6 +47,7 @@ else{
                               " svetlo-> ".$svetlo.
                               " voda-> ".$voda;
                $file[0] =  $result; 
+               echo "Kod tut rabotaet";
          }
 }          
 $text = fopen("text.txt","r");
