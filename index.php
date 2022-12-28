@@ -11,27 +11,25 @@ if($pocet == 12){
           fclose($text);
 }
 // -> запись в файл
-if(!isset($temperature)){
-          return;
-} 
-$text = fopen("text.txt","a");
-$result = "temperature-> ".$temperature.
-          " humidity-> ".$humidity.
-          " svetlo-> ".$svetlo.
-          " voda-> ".$voda.
-          " ".$pocet."\n";
-//echo $result;
-fwrite($text,$result);
-fclose($text);
+if(isset($temperature)){           
+          $text = fopen("text.txt","a");
+          $result = "temperature-> ".$temperature.
+                    " humidity-> ".$humidity.
+                    " svetlo-> ".$svetlo.
+                    " voda-> ".$voda.
+                    " ".$pocet."\n";
+          //echo $result;
+          fwrite($text,$result);
+          fclose($text);
 
-$text = fopen("text.txt","r");
-//$res = fgets($text);
-while (!feof($text)) {
-    echo fgets($text);
-    echo '<br>';
+          $text = fopen("text.txt","r");
+          //$res = fgets($text);
+          while (!feof($text)) {
+                    echo fgets($text);
+                     echo '<br>';
+          }
+          fclose($text);
+          //$res = file_get_contents("text.txt");
+          //echo $res;
 }
-fclose($text);
-//$res = file_get_contents("text.txt");
-//echo $res;
-
 ?>
