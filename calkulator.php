@@ -9,5 +9,5 @@ $result = "temperature-> ".$temperature.
           " humidity-> ".$humidity.
           " svetlo-> ".$svetlo.
           " voda->".$voda; 
-echo $result
+echo $result;
 ?>
