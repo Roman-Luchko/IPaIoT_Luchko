@@ -10,7 +10,7 @@ if(pocet == -1){
           $text = fopen("text.txt","w");
           fclose($text);
 }
-if($pocet <= 12){
+elseif($pocet <= 12){
           // -> запись в файл
           if(isset($temperature)){           
                     $text = fopen("text.txt","a");
