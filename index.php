@@ -31,7 +31,16 @@
                                                             }
                                                        ?>
                                                   </td>
-                                                  <td></td>
+                                                  <td>
+                                                       <?php 
+                                                            if($result[7] == 0){
+                                                                      echo "-";
+                                                            }
+                                                            else{
+                                                                      echo "+";
+                                                            }
+                                                       ?>
+                                                  </td>
                                         </tr>
                               </table>
                     </body>
