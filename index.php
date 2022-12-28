@@ -27,7 +27,7 @@
                                                   background: #F0E68C;
                                         }
                                         .svet{
-                                                  background: #DAA520;
+                                                  background: #FFFACD;
                                         }
                                         .voda{
                                                   background: #87CEEB;
