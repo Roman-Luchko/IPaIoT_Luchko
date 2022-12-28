@@ -8,6 +8,6 @@ $voda = $_GET['voda'];
 $result = "temperature-> ".$temperature.
           " humidity-> ".$humidity.
           " svetlo-> ".$svetlo.
-          " voda->".$voda; 
+          " voda-> ".$voda; 
 echo $result;
 ?>
