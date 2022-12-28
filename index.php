@@ -17,7 +17,7 @@ $result = "temperature-> ".$temperature.
           " svetlo-> ".$svetlo.
           " voda-> ".$voda.
           " ".$pocet."\n";
-echo $result;
+//echo $result;
 fwrite($text,$result);
 fclose($text);
 
