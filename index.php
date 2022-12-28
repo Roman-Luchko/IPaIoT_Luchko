@@ -24,7 +24,7 @@
                                                   background: #F08080;
                                         }
                                         .hum{
-                                                  background: #FFEFD5;
+                                                  background: #F0E68C;
                                         }
                                         .svet{
                                                   background: #DAA520;
