@@ -15,7 +15,7 @@
                                         <?php $res = $text[0]; ?>          
                                         <tr>
                                                   <td>hhh<?php echo "k"; ?></td>
-                                                  <td>ff</td>
+                                                  <td>nnn<?php echo $res; ?></td>
                                                   <td></td>
                                                   <td></td>
                                         </tr>
