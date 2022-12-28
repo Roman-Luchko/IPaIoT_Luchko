@@ -8,8 +8,10 @@ $voda = $_GET['voda'];
 $text = fopen("text.txt","r");
 $pocet = 0;
 
-
-
+if($voda == 2){
+          $text = fopen("text.txt","w");
+          fclose($text);
+}
 while (($buffer = fgets($text)) !== false) {
           $pocet++;
 }
