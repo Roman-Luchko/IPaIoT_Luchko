@@ -1,10 +1,10 @@
 <?php
 
 //-> создаю переменные, которые принимаю с esp
-$temperature = $_GET['temperature'];
-$humidity = $_GET['humidity'];
-$svetlo = $_GET['svetlo'];
-$voda = $_GET['voda'];
+$temperature = $_POST['temperature'];
+$humidity = $_POST['humidity'];
+$svetlo = $_POST['svetlo'];
+$voda = $_POST['voda'];
 $result = "temperature-> ".$temperature.
           " humidity-> ".$humidity.
           " svetlo-> ".$svetlo.
