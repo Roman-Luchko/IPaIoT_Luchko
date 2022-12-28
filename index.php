@@ -9,9 +9,7 @@ $text = fopen("text.txt","r");
 $pocet = 0;
 $text = fopen("text.txt","w");           
 fclose($text);
-while(($buffer = fgets($text)) !== false){
-           $pocet++;        
-}
+
 echo $pocet++;
 
 elseif($pocet != 12){
