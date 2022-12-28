@@ -21,7 +21,7 @@
                                                   background: #D8BFD8;
                                         }
                                         .temp{
-                                                  background: #FA8072;
+                                                  background: #F08080;
                                         }
                                         .hum{
                                                   background: #FFEFD5;
