@@ -11,11 +11,11 @@ while(($buffer = fgets($text)) !== false){
            $pocet++;        
 }
 echo $pocet++;
-if($pocet > 11){
+if($pocet > 13){
           $text = fopen("text.txt","w");
           fclose($text);
 }
-elseif($pocet < 11){
+elseif($pocet < 13){
           // -> запись в файл
           if(isset($temperature)){           
                     $text = fopen("text.txt","a");
