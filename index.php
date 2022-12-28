@@ -18,7 +18,7 @@
                                         ?>          
                                         <tr>
                                                   <td>hhh<?php echo "k"; ?></td>
-                                                  <td>nnn<?php echo $result[1]; ?></td>
+                                                  <td>mmm<?php echo $result[1]; ?></td>
                                                   <td></td>
                                                   <td></td>
                                         </tr>
