@@ -7,8 +7,6 @@ $svetlo = $_GET['svetlo'];
 $voda = $_GET['voda'];
 $text = fopen("text.txt","r");
 $pocet = 0;
-$text = fopen("text.txt","w");           
-fclose($text);
 
 echo $pocet++;
 
