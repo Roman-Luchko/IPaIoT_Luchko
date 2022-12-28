@@ -46,6 +46,7 @@ elseif($pocet == 12){
                               " svetlo-> ".$svetlo.
                               " voda-> ".$voda."\n";
                $file[0] =  $result; 
+               echo "Tut kod rabotaet";
          }
 }    
 elseif($pocet >13){
