@@ -15,7 +15,7 @@ if($pocet > 13){
           $text = fopen("text.txt","w");
           fclose($text);
 }
-elseif($pocet < 13){
+elseif($pocet != 12){
           // -> запись в файл
           if(isset($temperature)){           
                     $text = fopen("text.txt","a");
@@ -26,7 +26,8 @@ elseif($pocet < 13){
                               " ".$pocet."\n";
                     //echo $result;
                     fwrite($text,$result);
-                    fclose($text);       
+                    fclose($text);  
+                    echo "Kod tut rabotaet";
           }
 }
 else if($pocet == 12){
@@ -46,8 +47,7 @@ else if($pocet == 12){
                               " humidity-> ".$humidity.
                               " svetlo-> ".$svetlo.
                               " voda-> ".$voda;
-               $file[0] =  $result; 
-               echo "Kod tut rabotaet";
+               $file[0] =  $result;             
          }
 }          
 $text = fopen("text.txt","r");
