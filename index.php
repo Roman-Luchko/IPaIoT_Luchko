@@ -4,11 +4,11 @@
                               <title>Sensors</title>
                               <style>
                                         table{
-                                            border: 5px double black;
+                                            border: 5px groove black;
                                             width: 50%;
                                         }
                                         td{
-                                            border: 5px double black;      
+                                            border: 5px groove black;      
                                         }
                                         .head{
                                                   background: yellow;
