@@ -7,7 +7,7 @@ $svetlo = $_POST['svetlo'];
 $voda = $_POST['voda'];
 
 // -> разовая запись в файл
-$text = fopen("text.txt","w+");
+$text = fopen("text.txt","w");
 $result = "temperature-> ".$temperature.
           " humidity-> ".$humidity.
           " svetlo-> ".$svetlo.
@@ -15,7 +15,7 @@ $result = "temperature-> ".$temperature.
 fwrite($text,$result);
 fclose($text);
 
-$text = fopen("text.txt","w+");
+$text = fopen("text.txt","r");
 $res = fgets($text);
 fclose($text);
 echo $res;
