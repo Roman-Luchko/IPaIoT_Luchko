@@ -5,13 +5,13 @@ $temperature = $_GET['temperature'];
 $humidity = $_GET['humidity'];
 $svetlo = $_GET['svetlo'];
 $voda = $_GET['voda'];
-$pocet = $_GET['pocet'];
+$pocet = 0;
 if($pocet == 12){
           $text = fopen("text.txt","w");   
           fclose($text);
 }
 // -> разовая запись в файл
-$text = fopen("text.txt","w");
+$text = fopen("text.txt","a");
 $result = "temperature-> ".$temperature.
           " humidity-> ".$humidity.
           " svetlo-> ".$svetlo.
