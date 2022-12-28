@@ -3,6 +3,9 @@
                     <head>
                               <title>Sensors</title>
                               <style>
+                                        table{
+                                            border: 5px double black;      
+                                        }
                                         .head{
                                                   background: yellow;
                                         }
