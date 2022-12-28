@@ -3,6 +3,9 @@
                     <head>
                               <title>Sensors</title>
                               <style>
+                                        table{
+                                            border: 5px double black;      
+                                        }
                                         td{
                                             border: 5px double black;      
                                         }
@@ -31,7 +34,7 @@
                                         //<-_->//
                                         
                                         <?php $text = file("text.txt"); ?>
-                                        <tr class = "head">
+                                        //<tr class = "head">
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
