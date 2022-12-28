@@ -33,7 +33,7 @@ if($pocet != 12){
 elseif($pocet == 12){
          echo "Tut kod rabotaet";
          if(isset($temperature)){     
-                   echo "ddd";   
+                   //echo "fff";   
                    $text = file('text.txt');
                
                    $text[11] = $text[10];
@@ -85,10 +85,33 @@ elseif($pocet >13){
 $text = fopen("text.txt","r");
 //$res = fgets($text);
 while (!feof($text)) {
-          echo fgets($text);
-          echo '<br>';
+          //echo fgets($text);
+          //echo '<br>';
 }
 fclose($text);
 //$res = file_get_contents("text.txt");
- //echo $res;
+//echo $res;
+?>
+<!DOCTYPE html>
+          <head>
+          <title>Sensors</title>
+          </head>
+          <body>
+                    <?php $text = file('text.txt');?>
+                    <table>
+                              <tr>
+                                        <th>Temperature</th>
+                                        <th>Humidity</th>
+                                        <th>Svetlo</th>
+                                        <th>Voda</th>
+                              </tr>
+                              <?php $res = explode(" ", $text[0]); ?>
+                              <tr>
+                                        <td><?php echo $res[0]; ?></td>
+                                        <td><?php echo $res[0]; ?></td>
+                                        <td><?php echo $res[0]; ?></td>
+                                        <td><?php echo $res[0]; ?></td>
+                              </tr>
+                              
+          
 ?>
