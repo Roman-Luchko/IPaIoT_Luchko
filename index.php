@@ -33,40 +33,41 @@ if($pocet != 12){
 elseif($pocet == 12){
          echo "Tut kod rabotaet";
          if(isset($temperature)){     
-                   echo "fff";   
+                   echo "ddd";   
                    $text = file('text.txt');
                
                    $text[11] = $text[10];
-                   file_put_contents('text.txt', $file);   
+                   file_put_contents('text.txt', $text);   
                
                    $text[10] = $text[9];
-                   file_put_contents('text.txt', $file);
+                   file_put_contents('text.txt', $text);
                     
                    $text[9] =  $text[8]; 
-                   file_put_contents('text.txt', $file);
+                   file_put_contents('text.txt', $text);
                     
                    $text[8] =  $text[7]; 
-                   file_put_contents('text.txt', $file);
+                   file_put_contents('text.txt', $text);
+                   
                    $text[7] =  $text[6]; 
-                   file_put_contents('text.txt', $file);
+                   file_put_contents('text.txt', $text);
                     
                    $text[6] =  $text[5]; 
-                   file_put_contents('text.txt', $file);
+                   file_put_contents('text.txt', $text);
                    
                    $text[5] =  $text[4]; 
-                   file_put_contents('text.txt', $file);
+                   file_put_contents('text.txt', $text);
                     
                    $text[4] =  $text[3]; 
-                   file_put_contents('text.txt', $file); 
+                   file_put_contents('text.txt', $text); 
                    
                    $text[3] =  $text[2]; 
-                   file_put_contents('text.txt', $file);
+                   file_put_contents('text.txt', $text);
                     
                    $text[2] =  $text[1]; 
-                   file_put_contents('text.txt', $file);
+                   file_put_contents('text.txt', $text);
                    
                    $text[1] =  $text[0]; 
-                   file_put_contents('text.txt', $file);
+                   file_put_contents('text.txt', $text);
                     
                    $result = "temperature-> ".$temperature.
                               " humidity-> ".$humidity.
@@ -74,7 +75,7 @@ elseif($pocet == 12){
                               " voda-> ".$voda."\n";
                
                    $text[0] =  $result; 
-                   file_put_contents('text.txt', $file);
+                   file_put_contents('text.txt', $text);
          }
 }    
 elseif($pocet >13){
