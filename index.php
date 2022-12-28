@@ -12,10 +12,13 @@
                                                   <th>Svetlo</th>
                                                   <th>Voda</th>
                                         </tr>  
-                                        <?php $res = $text[0]; ?>          
+                                        <?php
+                                                  $res = $text[0]; 
+                                                  $result = explode(", ", $res);
+                                        ?>          
                                         <tr>
                                                   <td>hhh<?php echo "k"; ?></td>
-                                                  <td>nnn<?php echo $res; ?></td>
+                                                  <td>nnn<?php echo $result[1]; ?></td>
                                                   <td></td>
                                                   <td></td>
                                         </tr>
