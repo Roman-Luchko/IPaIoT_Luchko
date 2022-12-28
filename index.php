@@ -12,7 +12,7 @@
                                             margin: auto; 
                                         }
                                         td {
-                                                  text-align: center; /* Выравниваем текст по центру ячейки */
+                                                  text-align: center; 
                                         }
                                         td{
                                             border: 3px groove black;      
@@ -42,9 +42,7 @@
                     <body>                              
                               <table>
                                         
-                                        //<-_->//                                     
-                                        // riadok 1
-                                        //<-_->//
+                                        
                                         
                                         <?php $text = file("text.txt"); ?>
                                         //<tr class = "head">
@@ -83,9 +81,7 @@
                                                   </td>
                                         </tr>
                                         
-                                        //<-_->//                                     
-                                        // riadok 2
-                                        //<-_->//
+                                        
                                                                              
                                         <?php $text = file("text.txt"); ?>
                                         <tr class = "head">
@@ -124,9 +120,7 @@
                                                   </td>
                                         </tr>
                                         
-                                        //<-_->//                                     
-                                        // riadok 3
-                                        //<-_->//
+                                        
                                                                              
                                         <?php $text = file("text.txt"); ?>
                                         <tr class = "head">
@@ -165,9 +159,7 @@
                                                   </td>
                                         </tr>
                                         
-                                        //<-_->//                                     
-                                        // riadok 4
-                                        //<-_->//
+                                        
                                                                              
                                         <?php $text = file("text.txt"); ?>
                                         <tr class = "head">
@@ -206,9 +198,7 @@
                                                   </td>
                                         </tr>
                                         
-                                        //<-_->//                                     
-                                        // riadok 5
-                                        //<-_->//
+                                        
                                                                              
                                         <?php $text = file("text.txt"); ?>
                                         <tr class = "head">
@@ -247,9 +237,7 @@
                                                   </td>
                                         </tr>
                                         
-                                        //<-_->//                                     
-                                        // riadok 6
-                                        //<-_->//
+                                        
                                                                              
                                         <?php $text = file("text.txt"); ?>
                                         <tr class = "head">
@@ -288,9 +276,7 @@
                                                   </td>
                                         </tr>
                                         
-                                        //<-_->//                                     
-                                        // riadok 7
-                                        //<-_->//
+                                       
                                                                              
                                         <?php $text = file("text.txt"); ?>
                                         <tr class = "head">
@@ -329,9 +315,7 @@
                                                   </td>
                                         </tr>
                                         
-                                        //<-_->//                                     
-                                        // riadok 8
-                                        //<-_->//
+                                        
                                                                              
                                         <?php $text = file("text.txt"); ?>
                                         <tr class = "head">
@@ -370,9 +354,7 @@
                                                   </td>
                                         </tr>
                                         
-                                        //<-_->//                                     
-                                        // riadok 9
-                                        //<-_->//
+                                        
                                                                              
                                         <?php $text = file("text.txt"); ?>
                                         <tr class = "head">
@@ -411,9 +393,7 @@
                                                   </td>
                                         </tr>
                                         
-                                        //<-_->//                                     
-                                        // riadok 10
-                                        //<-_->//
+                                        
                                                                              
                                         <?php $text = file("text.txt"); ?>
                                         <tr class = "head">
