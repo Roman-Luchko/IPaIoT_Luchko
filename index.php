@@ -6,7 +6,11 @@ $humidity = $_GET['humidity'];
 $svetlo = $_GET['svetlo'];
 $voda = $_GET['voda'];
 $pocet = $_GET['pocet'];
-if($pocet != 12){
+if(pocet == -1){
+          $text = fopen("text.txt","w");
+          fclose($text);
+}
+if($pocet <= 12){
           // -> запись в файл
           if(isset($temperature)){           
                     $text = fopen("text.txt","a");
