@@ -23,11 +23,11 @@
                                                   <td><?php echo $result[3]; ?></td>
                                                   <td>
                                                        <?php 
-                                                            if($result[7] == 0){
-                                                                      echo "-";
+                                                            if($result[5] == 1){
+                                                                      echo "+";
                                                             }
                                                             else{
-                                                                      echo "+";
+                                                                      echo "-";
                                                             }
                                                        ?>
                                                   </td>
