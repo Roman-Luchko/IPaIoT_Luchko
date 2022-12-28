@@ -5,7 +5,7 @@ $temperature = $_GET['temperature'];
 $humidity = $_GET['humidity'];
 $svetlo = $_GET['svetlo'];
 $voda = $_GET['voda'];
-$pocet = $_GET['pocet];
+$pocet = $_GET['pocet'];
 if($pocet == 12){
           $text = fopen("text.txt","w");   
           fclose($text);
