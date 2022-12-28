@@ -12,10 +12,12 @@ $result = "temperature-> ".$temperature.
           " humidity-> ".$humidity.
           " svetlo-> ".$svetlo.
           " voda-> ".$voda; 
-fwrite($result);
-$res = gets($result);
+fwrite($text,$result);
 fclose($text);
 
+$text = fopen("text.txt","w+");
+$res = fgets($text);
+fclose($text);
 echo $res;
 
 ?>
