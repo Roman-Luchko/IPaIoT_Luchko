@@ -23,8 +23,9 @@ fclose($text);
 
 $text = fopen("text.txt","r");
 //$res = fgets($text);
+echo fgets($text);
 fclose($text);
-$res = file_get_contents("text.txt");
-echo $res;
+//$res = file_get_contents("text.txt");
+//echo $res;
 
 ?>
