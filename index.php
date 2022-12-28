@@ -132,7 +132,7 @@
                                         <?php
                                                   $res = $text[2]; 
                                                   $result = explode(" ", $res);
-                                                  //print_r($result);
+                                                  
                                         ?>          
                                         <tr>
                                                   <td class = "temp"><?php echo $result[1]; ?></td>
