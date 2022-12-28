@@ -3,6 +3,9 @@
                     <head>
                               <title>Sensors</title>
                               <style>
+                                        body{
+                                            background: #FAFAD2;      	
+                                        }
                                         table{
                                             border: 5px groove black;
                                             width: 50%;
@@ -15,7 +18,7 @@
                                             border: 5px groove black;      
                                         }
                                         .head{
-                                                  background: yellow;
+                                                  background: #D8BFD8;
                                         }
                                         .temp{
                                                   background: #FA8072;
@@ -80,7 +83,7 @@
                                         //<-_->//
                                                                              
                                         <?php $text = file("text.txt"); ?>
-                                        <tr>
+                                        <tr class = "head">
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
@@ -121,7 +124,7 @@
                                         //<-_->//
                                                                              
                                         <?php $text = file("text.txt"); ?>
-                                        <tr>
+                                        <tr class = "head">
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
@@ -162,7 +165,7 @@
                                         //<-_->//
                                                                              
                                         <?php $text = file("text.txt"); ?>
-                                        <tr>
+                                        <tr class = "head">
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
@@ -203,7 +206,7 @@
                                         //<-_->//
                                                                              
                                         <?php $text = file("text.txt"); ?>
-                                        <tr>
+                                        <tr class = "head">
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
@@ -244,7 +247,7 @@
                                         //<-_->//
                                                                              
                                         <?php $text = file("text.txt"); ?>
-                                        <tr>
+                                        <tr class = "head">
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
@@ -285,7 +288,7 @@
                                         //<-_->//
                                                                              
                                         <?php $text = file("text.txt"); ?>
-                                        <tr>
+                                        <tr class = "head">
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
@@ -326,7 +329,7 @@
                                         //<-_->//
                                                                              
                                         <?php $text = file("text.txt"); ?>
-                                        <tr>
+                                        <tr class = "head">
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
@@ -367,7 +370,7 @@
                                         //<-_->//
                                                                              
                                         <?php $text = file("text.txt"); ?>
-                                        <tr>
+                                        <tr class = "head">
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
@@ -408,7 +411,7 @@
                                         //<-_->//
                                                                              
                                         <?php $text = file("text.txt"); ?>
-                                        <tr>
+                                        <tr class = "head">
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
@@ -449,7 +452,7 @@
                                         //<-_->//
                                                                              
                                         <?php $text = file("text.txt"); ?>
-                                        <tr>
+                                        <tr class = "head">
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
@@ -490,7 +493,7 @@
                                         //<-_->//
                                                                              
                                         <?php $text = file("text.txt"); ?>
-                                        <tr>
+                                        <tr class = "head">
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
