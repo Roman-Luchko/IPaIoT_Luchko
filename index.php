@@ -14,7 +14,7 @@
                                         </tr>  
                                         <?php
                                                   $res = $text[0]; 
-                                                  $result = explode(", ", $res);
+                                                  $result = explode(" ", $res);
                                         ?>          
                                         <tr>
                                                   <td>hhh<?php echo "k"; ?></td>
