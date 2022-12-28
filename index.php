@@ -10,6 +10,10 @@ $pocet = 0;
 
 echo $pocet++;
 
+while (($buffer = fgets($text)) !== false) {
+          $pocet++;
+}
+
 if($pocet != 12){
           // -> запись в файл
           if(isset($temperature)){           
