@@ -20,9 +20,9 @@ if($pocet != 12){
                     fclose($text);       
           }
 }
-esle{
+else{
          if(isset($temperature)){           
-               text = file('text.txt');
+               $text = file('text.txt');
                $file[12] = $file[11];
                $file[11] = $file[10]; 
                $file[9] =  $file[8]; 
