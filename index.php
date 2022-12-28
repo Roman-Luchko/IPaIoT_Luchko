@@ -15,6 +15,7 @@
                                         <?php
                                                   $res = $text[0]; 
                                                   $result = explode(" ", $res);
+                                                  print_r($arr);
                                         ?>          
                                         <tr>
                                                   <td>hhh<?php echo "k"; ?></td>
