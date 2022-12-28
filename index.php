@@ -22,8 +22,9 @@ fwrite($text,$result);
 fclose($text);
 
 $text = fopen("text.txt","r");
-$res = fgets($text);
+//$res = fgets($text);
 fclose($text);
+$res = file_get_contents("text.txt");
 echo $res;
 
 ?>
