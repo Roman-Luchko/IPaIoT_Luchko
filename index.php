@@ -5,6 +5,7 @@
                     </head>
                     <body>                              
                               <table background = "yellow">
+                                        // -> riadok 1
                                         <?php $text = file("text.txt"); ?>
                                         <tr>
                                                   <th>Temperature</th>
@@ -19,8 +20,17 @@
                                         ?>          
                                         <tr>
                                                   <td><?php echo $result[1]; ?></td>
-                                                  <td><?php echo $result[1]; ?></td>
-                                                  <td></td>
+                                                  <td><?php echo $result[3]; ?></td>
+                                                  <td>
+                                                       <?php 
+                                                            if($result[7] == 0){
+                                                                      echo "-";
+                                                            }
+                                                            else{
+                                                                      echo "+";
+                                                            }
+                                                       ?>
+                                                  </td>
                                                   <td></td>
                                         </tr>
                               </table>
