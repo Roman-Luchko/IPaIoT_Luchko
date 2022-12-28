@@ -113,5 +113,7 @@ fclose($text);
                                                   <td><?php echo $res[0]; ?></td>
                                                   <td><?php echo $res[0]; ?></td>
                                         </tr>
+                              </table>
+                    </body>
                                        
           </html>
