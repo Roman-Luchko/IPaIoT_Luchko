@@ -6,6 +6,10 @@
                                         table{
                                             border: 5px groove black;
                                             width: 50%;
+                                            margin: auto; 
+                                        }
+                                        td {
+                                                  text-align: center; /* Выравниваем текст по центру ячейки */
                                         }
                                         td{
                                             border: 5px groove black;      
