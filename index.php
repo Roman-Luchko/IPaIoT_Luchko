@@ -13,15 +13,18 @@ while(($buffer = fgets($text)) !== false){
            $pocet++;        
 }
 echo $pocet++;
-if($pocet != 12){
+if(pocet > 13){
+           $text = fopen("text.txt","w");
+           fclose($text);
+}
+elseif($pocet != 12){
           // -> запись в файл
           if(isset($temperature)){           
                     $text = fopen("text.txt","a");
                     $result = "temperature-> ".$temperature.
                               " humidity-> ".$humidity.
                               " svetlo-> ".$svetlo.
-                              " voda-> ".$voda.
-                              " ".$pocet."\n";
+                              " voda-> ".$voda."\n";
                     //echo $result;
                     fwrite($text,$result);
                     fclose($text);       
@@ -43,14 +46,11 @@ elseif(pocet == 12){
                $result = "temperature-> ".$temperature.
                               " humidity-> ".$humidity.
                               " svetlo-> ".$svetlo.
-                              " voda-> ".$voda;
+                              " voda-> ".$voda."\n";
                $file[0] =  $result; 
          }
 }    
-elseif(pocet == 13){
-           $text = fopen("text.txt","w");
-           fclose($text);
-}
+
 $text = fopen("text.txt","r");
 //$res = fgets($text);
 while (!feof($text)) {
