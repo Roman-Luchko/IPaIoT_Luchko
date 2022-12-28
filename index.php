@@ -7,7 +7,7 @@
                                             background: #FAFAD2;      	
                                         }
                                         table{
-                                            border: 5px groove black;
+                                            border: 3px groove black;
                                             width: 50%;
                                             margin: auto; 
                                         }
@@ -15,7 +15,7 @@
                                                   text-align: center; /* Выравниваем текст по центру ячейки */
                                         }
                                         td{
-                                            border: 5px groove black;      
+                                            border: 3px groove black;      
                                         }
                                         .head{
                                                   background: #D8BFD8;
