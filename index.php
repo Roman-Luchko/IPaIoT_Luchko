@@ -43,7 +43,10 @@ elseif($pocet == 12){
                $file[0] =  $result; 
          }
 }    
-
+elseif($pocet >13){
+          $text = fopen("text.txt","w");
+          fclose($text);
+}
 $text = fopen("text.txt","r");
 //$res = fgets($text);
 while (!feof($text)) {
