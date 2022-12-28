@@ -8,7 +8,7 @@
                                             width: 50%;
                                         }
                                         td{
-                                            border: 5px double red;      
+                                            border: 5px double black;      
                                         }
                                         .head{
                                                   background: yellow;
