@@ -23,8 +23,8 @@ fclose($text);
 
 $text = fopen("text.txt","r");
 //$res = fgets($text);
-while (!feof($file)) {
-    echo fgets($file);
+while (!feof($text)) {
+    echo fgets($text);
     echo '<br>';
 }
 fclose($text);
