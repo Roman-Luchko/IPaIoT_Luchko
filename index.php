@@ -44,8 +44,7 @@
                                         
                                         
                                         
-                                        <?php $text = file("text.txt"); ?>
-                                        //<tr class = "head">
+                                        <?php $text = file("text.txt"); ?>                                       
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
@@ -54,7 +53,6 @@
                                         <?php
                                                   $res = $text[0]; 
                                                   $result = explode(" ", $res);
-                                                  //print_r($result);
                                         ?>          
                                         <tr>
                                                   <td class = "temp"><?php echo $result[1]; ?></td>
