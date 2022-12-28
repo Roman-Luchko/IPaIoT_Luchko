@@ -30,7 +30,8 @@ if($pocet != 12){
 }
 elseif($pocet == 12){
          echo "Tut kod rabotaet";
-         if(isset($temperature)){           
+         if(isset($temperature)){     
+               echo "I tut toze kod rabotaet"; 
                $text = file('text.txt');
                $file[10] = $file[9];
                $file[1] = $file[8]; 
@@ -47,7 +48,7 @@ elseif($pocet == 12){
                               " svetlo-> ".$svetlo.
                               " voda-> ".$voda."\n";
                $file[0] =  $result; 
-               echo "I tut toze kod rabotaet";               
+                             
          }
 }    
 elseif($pocet >13){
