@@ -11,6 +11,9 @@ if($pocet == 12){
           fclose($text);
 }
 // -> запись в файл
+if(isset(temperature)){
+          return;
+} 
 $text = fopen("text.txt","a");
 $result = "temperature-> ".$temperature.
           " humidity-> ".$humidity.
