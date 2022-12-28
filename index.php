@@ -20,9 +20,9 @@ if(isset($temperature)){
                     " ".$pocet."\n";
           //echo $result;
           fwrite($text,$result);
-          fclose($text);
-
-          $text = fopen("text.txt","r");
+          fclose($text);       
+}
+$text = fopen("text.txt","r");
           //$res = fgets($text);
           while (!feof($text)) {
                     echo fgets($text);
@@ -31,5 +31,4 @@ if(isset($temperature)){
           fclose($text);
           //$res = file_get_contents("text.txt");
           //echo $res;
-}
 ?>
