@@ -3,7 +3,7 @@
 //-> создаю переменные, которые принимаю с esp
 $temperature = $_GET['temperature'];
 $humidity = $_GET['humidity'];
-$svetlo = $_GEt['svetlo'];
+$svetlo = $_GET['svetlo'];
 $voda = $_GET['voda'];
 
 // -> разовая запись в файл
