@@ -3,7 +3,7 @@
                     <head>
                               <title>Sensors</title>
                               <style>
-                                        table{
+                                        td{
                                             border: 5px double black;      
                                         }
                                         .head{
