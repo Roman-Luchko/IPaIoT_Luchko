@@ -19,6 +19,7 @@
                                         }
                                         .head{
                                                   background: #D8BFD8;
+                                                  font-style:oblique;
                                         }
                                         .temp{
                                                   background: #F08080;
