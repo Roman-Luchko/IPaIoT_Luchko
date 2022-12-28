@@ -1,0 +1,28 @@
+<?php
+include "sensors.php";
+?>
+<!DOCTYPE html>
+          <html>
+                    <head>
+                              <title>Sensors</title>
+                    </head>
+                    <body>
+                              <?php $text = file('text.txt');?>
+                              <table>
+                                        <tr>
+                                                  <th>Temperature</th>
+                                                  <th>Humidity</th>
+                                                  <th>Svetlo</th>
+                                                  <th>Voda</th>
+                                        </tr>
+                                        <?php $res = explode(" ", $text[0]); ?>
+                                        <tr>
+                                                  <td><?php echo $res[0]; ?></td>
+                                                  <td><?php echo $res[0]; ?></td>
+                                                  <td><?php echo $res[0]; ?></td>
+                                                  <td><?php echo $res[0]; ?></td>
+                                        </tr>
+                              </table>
+                    </body>
+                                       
+          </html>
