@@ -85,8 +85,8 @@ elseif($pocet >13){
 $text = fopen("text.txt","r");
 //$res = fgets($text);
 while (!feof($text)) {
-          //echo fgets($text);
-          //echo '<br>';
+          echo fgets($text);
+          echo '<br>';
 }
 fclose($text);
 //$res = file_get_contents("text.txt");
