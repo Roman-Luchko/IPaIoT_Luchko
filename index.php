@@ -7,7 +7,7 @@
                                             border: 5px double black;      
                                         }
                                         td{
-                                            border: 5px double black;      
+                                            border: 5px double red;      
                                         }
                                         .head{
                                                   background: yellow;
