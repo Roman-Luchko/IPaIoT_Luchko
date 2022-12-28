@@ -30,7 +30,7 @@
                                                   background: #FFFACD;
                                         }
                                         .voda{
-                                                  background: #87CEEB;
+                                                  background: #AFEEEE;
                                         }
                               </style>
                     </head>
