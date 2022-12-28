@@ -12,7 +12,7 @@
                                                   <th>Svetlo</th>
                                                   <th>Voda</th>
                                         </tr>  
-                                        <?php $res = $text[0]; ?>;          
+                                        <?php $res = $text[0]; ?>          
                                         <tr>
                                                   <td>hhh<?php echo "k"; ?></td>
                                                   <td><?php echo $res; ?></td>
