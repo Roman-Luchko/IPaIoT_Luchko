@@ -8,11 +8,12 @@ $voda = $_GET['voda'];
 $text = fopen("text.txt","r");
 $pocet = 0;
 
-echo $pocet++;
+
 
 while (($buffer = fgets($text)) !== false) {
           $pocet++;
 }
+echo $pocet;
 
 if($pocet != 12){
           // -> запись в файл
