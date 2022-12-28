@@ -29,7 +29,7 @@ elseif($pocet < 12){
                     fclose($text);       
           }
 }
-else{
+else if($pocet == 11){
          if(isset($temperature)){           
                $text = file('text.txt');
                $file[10] = $file[9];
