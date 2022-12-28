@@ -6,7 +6,7 @@ $humidity = $_GET['humidity'];
 $svetlo = $_GET['svetlo'];
 $voda = $_GET['voda'];
 $pocet = $_GET['pocet'];
-if(pocet == -1){
+if($pocet == -1){
           $text = fopen("text.txt","w");
           fclose($text);
 }
