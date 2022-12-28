@@ -32,22 +32,22 @@ elseif($pocet <= 12){
 else{
          if(isset($temperature)){           
                $text = file('text.txt');
-               $file[12] = $file[11];
-               $file[11] = $file[10]; 
-               $file[9] =  $file[8]; 
+               $file[10] = $file[9];
+               $file[1] = $file[8]; 
                $file[8] =  $file[7]; 
                $file[7] =  $file[6]; 
                $file[6] =  $file[5]; 
                $file[5] =  $file[4]; 
-               $file[4] =  $file[3]; 
+               $file[3] =  $file[3]; 
                $file[3] =  $file[2]; 
                $file[2] =  $file[1]; 
+               $file[1] =  $file[0]; 
                $result = "temperature-> ".$temperature.
                               " humidity-> ".$humidity.
                               " svetlo-> ".$svetlo.
                               " voda-> ".$voda.
                               " ".$pocet."\n";
-               $file[1] =  $result; 
+               $file[0] =  $result; 
          }
 }          
 $text = fopen("text.txt","r");
