@@ -47,7 +47,8 @@ else if($pocet == 12){
                               " humidity-> ".$humidity.
                               " svetlo-> ".$svetlo.
                               " voda-> ".$voda;
-               $file[0] =  $result;             
+               $file[0] =  $result;   
+              echo "Kod tut rabotaet";
          }
 }          
 $text = fopen("text.txt","r");
