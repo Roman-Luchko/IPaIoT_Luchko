@@ -20,6 +20,7 @@
                                         .head{
                                                   background: #D8BFD8;
                                                   font-style:oblique;
+                                                  font-family: cursive;
                                         }
                                         .temp{
                                                   background: #F08080;
