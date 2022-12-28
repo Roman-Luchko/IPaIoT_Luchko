@@ -4,16 +4,18 @@
                               <title>Sensors</title>
                     </head>
                     <body>                              
-                              <table>
+                              <table background = "yellow">
+                                        <?php $text = file("text.txt");
                                         <tr>
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
                                                   <th>Voda</th>
-                                        </tr>                                     
+                                        </tr>  
+                                        <?php $res = $text[0] ?>;          
                                         <tr>
                                                   <td>hhh<?php echo "k"; ?></td>
-                                                  <td></td>
+                                                  <td><?php echo $res; ?></td>
                                                   <td></td>
                                                   <td></td>
                                         </tr>
