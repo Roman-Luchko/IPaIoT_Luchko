@@ -5,14 +5,14 @@
                     </head>
                     <body>                              
                               <table background = "yellow">
-                                        <?php $text = file("text.txt");
+                                        <?php $text = file("text.txt"); ?>
                                         <tr>
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
                                                   <th>Svetlo</th>
                                                   <th>Voda</th>
                                         </tr>  
-                                        <?php $res = $text[0] ?>;          
+                                        <?php $res = $text[0]; ?>;          
                                         <tr>
                                                   <td>hhh<?php echo "k"; ?></td>
                                                   <td><?php echo $res; ?></td>
