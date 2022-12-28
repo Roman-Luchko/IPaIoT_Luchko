@@ -7,11 +7,11 @@ $svetlo = $_GET['svetlo'];
 $voda = $_GET['voda'];
 $text = fopen("text.txt","r");
 $pocet = 0;
-while(($buffer = fgets($text)) !== false)){
+while(($buffer = fgets($text)) !== false){
            $pocet++;        
 }
 echo $pocet++;
-if($pocet == -1){
+if($pocet > 12){
           $text = fopen("text.txt","w");
           fclose($text);
 }
