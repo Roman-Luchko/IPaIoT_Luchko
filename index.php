@@ -45,7 +45,7 @@ elseif(pocet == 12){
                $file[0] =  $result; 
          }
 }    
-elseif(pocet >=13){
+elseif(pocet == 13){
            $text = fopen("text.txt","w");
            fclose($text);
 }
