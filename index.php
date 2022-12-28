@@ -5,7 +5,7 @@
                     </head>
                     <body>                              
                               <table background = "yellow">
-                                        <?php $text = file("text.txt"); ?>
+                                        
                                         <tr>
                                                   <th>Temperature</th>
                                                   <th>Humidity</th>
@@ -15,7 +15,7 @@
                                         <?php $res = $text[0]; ?>          
                                         <tr>
                                                   <td>hhh<?php echo "k"; ?></td>
-                                                  <td><?php echo $res; ?></td>
+                                                  <td></td>
                                                   <td></td>
                                                   <td></td>
                                         </tr>
