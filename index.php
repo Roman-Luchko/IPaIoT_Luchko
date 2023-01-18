@@ -3,16 +3,16 @@
   $znak = $_GET['znak'];
   $c = $_GET['c'];
   if($znak == "-"){
-    echo $a-$b;
+    $result = $a-$b;
   }
   elseif($znak == "+"){
-    echo $a+$b;
+    $result = $a+$b;
   }
   elseif($znak == "*"){
-    echo $a*$b;
+    $result = $a*$b;
   }
   elseif($znak == "/"){
-     echo $a*$b;
+     $result = $a*$b;
   }
 
 ?>
