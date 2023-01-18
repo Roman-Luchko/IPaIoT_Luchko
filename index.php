@@ -7,15 +7,15 @@
     $result = $a-$b;
     echo "Result je ".$result;
   }
-  if($znak == '+'){
+  if($znak == "+"){
     $result = $a+$b;
     echo "Result je ".$result;
   }
-  if($znak == '*'){
+  if($znak == "*"){
     $result = $a*$b;
     echo "Result je ".$result;
   }
-  if($znak == '/'){
+  if($znak == "/"){
     $result = $a*$b;
     echo "Result je ".$result;
   }
