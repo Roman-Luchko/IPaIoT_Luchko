@@ -1,7 +1,7 @@
 <?php
         echo '<h1>index2.php web page with parameters</h1>';
 
-        echo '<h2> https://phpipaiot.azurewebsites.net/index2.php?a=10&b=2 </h2>';
+        echo "edit"
 
         echo "try calcul";
         echo "<br>";
@@ -25,5 +25,6 @@
         }else 
         $result = 0;
         echo "<br>";
+        echo $operacia;
         echo "Result:" . $result;
     ?>
