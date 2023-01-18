@@ -1,7 +1,7 @@
 <?php
         echo '<h1>index2.php web page with parameters</h1>';
 
-        echo "edit"
+        echo "edit";
 
         echo "try calcul";
         echo "<br>";
