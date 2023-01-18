@@ -1,4 +1,4 @@
 <?php 
-$a = $_POST['a'];
+$a = $_GET['a'];
 echo 'A je '.$a;
 ?>
