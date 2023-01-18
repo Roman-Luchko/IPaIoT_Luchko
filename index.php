@@ -14,5 +14,5 @@
   elseif($znak == "/"){
      $result = $a*$b;
   }
-
+  echo "Result je ".$result;
 ?>
