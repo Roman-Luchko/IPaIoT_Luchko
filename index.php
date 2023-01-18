@@ -2,19 +2,21 @@
   $a = $_GET["a"];
   $znak = $_GET["znak"];
   $c = $_GET["c"];
-  echo "Znak! je ".$znak;
-  if($znak == "-"){
-    echo "dasdas";
+  echo "Znak! je ".$znak." ";
+  if($znak == "-"){    
     $result = $a-$b;
+    echo "Result je ".$result;
   }
   elseif($znak == '+'){
     $result = $a+$b;
+    echo "Result je ".$result;
   }
   elseif($znak == '*'){
     $result = $a*$b;
+    echo "Result je ".$result;
   }
   elseif($znak == '/'){
-     $result = $a*$b;
+    $result = $a*$b;
+    echo "Result je ".$result;
   }
-  echo "Result je ".$result;
 ?>
