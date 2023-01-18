@@ -2,8 +2,9 @@
   $a = $_GET['a'];
   $znak = $_GET['znak'];
   $c = $_GET['c'];
-  echo "Znak je ".$znak;
+  echo "Znak! je ".$znak;
   if($znak == "-"){
+    echo "dasdas";
     $result = $a-$b;
   }
   elseif($znak == '+'){
