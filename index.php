@@ -18,7 +18,7 @@
         $result = $sn1 * $sn2;
         }elseif($operacia == "+"){
         $result = $sn1 + $sn2;
-        elseif($operacia == "/"){
+        }elseif($operacia == "/"){
         $result = $sn1 / $sn2;
         }elseif($operacia == "-"){
         $result = $sn1 - $sn2;
