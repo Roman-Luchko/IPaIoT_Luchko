@@ -2,16 +2,16 @@
   $a = $_GET['a'];
   $znak = $_GET['znak'];
   $c = $_GET['c'];
-  if(znak == "-"){
+  if($znak == "-"){
     echo a-b;
   }
-  elseif(znak == "+"){
+  elseif($znak == "+"){
     echo a+b;
   }
-  elseif(znak == "*"){
+  elseif($znak == "*"){
     echo a*b;
   }
-  elseif(znak == "/"){
+  elseif($znak == "/"){
      echo a*b;
   }
 
