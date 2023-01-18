@@ -3,7 +3,7 @@
   $znak = $_GET['znak'];
   $c = $_GET['c'];
   echo "Znak je ".$znak;
-  if($znak == '-'){
+  if($znak == "-"){
     $result = $a-$b;
   }
   elseif($znak == '+'){
