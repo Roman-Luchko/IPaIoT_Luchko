@@ -1,7 +1,10 @@
 <?php 
-$a = $_GET['a'];
-echo 'A je '.$a;
-$file = fopen("g.txt","a");
-fwrite($file," ".$a."\n");
-fclose($file);
+  $a = [4,10,8,15]
+  print_r($a);
+  echo 'max je'.max($a);
+  echo 'max je'.min($a);
+  $a_2 = arsort($a);
+  print_r($a_2);
+
+
 ?>
