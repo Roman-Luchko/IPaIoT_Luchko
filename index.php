@@ -1,7 +1,7 @@
 <?php
 echo "gym"; 
 $a = $_GET["vlhkost"];
-$file = fopen("r.txt",w);
+$file = fopen("r.txt",a);
 fwrite($file,$a);
 fclose($file);
 
