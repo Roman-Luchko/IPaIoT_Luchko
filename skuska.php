@@ -2,7 +2,7 @@
 
 //создать переменные для кнопок
 $pocet_button = $_POST["pocet"];
-$reset_button = $_POST["reset];
+$reset_button = $_POST["reset"];
 
 //сперва считать с файла предыдущие количества итераций
 $file = fopen("g.txt","w+");
