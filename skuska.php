@@ -9,6 +9,6 @@ if (isset($_POST['but'])){
 echo 'Вы нажали на кнопку '.$num. ' раз';
 
 ?>
-<form action="registration.php" method="post">
+<form action="skuska.php" method="post">
     <input type="submit" name="but" value="<?php echo $num;?>">
 </form>
