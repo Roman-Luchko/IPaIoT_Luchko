@@ -1,4 +1,5 @@
 <?php
-
-echo "a:";
+echo "try"; 
+$a = $_GET["vlhkost"];
+echo "a:".$a;
 ?>
