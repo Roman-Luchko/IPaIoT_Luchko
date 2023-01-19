@@ -24,7 +24,7 @@ fclose($text);
 
 ?>
 <html>
-  <form action = "priklad.php" method="post">
+  <form action = "" method="post">
         <input type="button" name="pocet",value="pocet"><br>
         <input type="button" name="reset",value="reset"><br>
         <input type="submit" value="Submit">
