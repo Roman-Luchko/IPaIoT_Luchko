@@ -23,8 +23,8 @@ fwrite($text);
 fclose($text);
 
 ?>
-<form>
-  <input type="text" name="pocet",value="pocet"><br>
-  <input type="text" name="reset",value="reset"><br>
+<form action="skuska.php" method="post">
+  <input type="button" name="pocet",value="pocet"><br>
+  <input type="button" name="reset",value="reset"><br>
   <input type="submit" value="Submit">
 </form>
