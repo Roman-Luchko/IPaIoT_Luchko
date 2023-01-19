@@ -21,7 +21,7 @@
         }elseif($operacia == "/"){
         $result = $sn1 / $sn2;
         }elseif($operacia == "+"){
-        $result = $sn1 - $sn2;
+        $result = $sn1 + $sn2;
         }else 
         $result = 0;
         echo "<br>";
