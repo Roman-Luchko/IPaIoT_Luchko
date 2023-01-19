@@ -1,4 +1,8 @@
 <?php
 $a = $_GET["vlhkost"];
-echo file_put_contents("test12.txt",$a);
+$file = fopen("tester.txt", "w");
+fwrite($file,$a);
+close($file);
+$file = fopen("tester.txt", "r");
+echo $file;
 ?>
