@@ -5,6 +5,6 @@ $file = fopen("r.txt",w);
 fwrite($file,$a);
 fclose($file);
 
-echo "a:".$a;
+echo "aaaa:".$a;
 
 ?>
