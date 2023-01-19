@@ -1,6 +1,7 @@
 <?php
+$b = $_GET["vlhkost"];
 $file = fopen("tester.txt", "w");
-fwrite($file,$a);
+fwrite($file,$b);
 fclose($file);
 $file = fopen("tester.txt", "r");
 $a=fread($file,filesize("tester.txt"));
