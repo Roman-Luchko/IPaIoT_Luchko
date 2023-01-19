@@ -11,7 +11,7 @@ if (isset($_POST['but'])){
   }
   setcookie('count', $num);
 
-echo 'Вы нажали на кнопку '.$num. ' раз';
+echo 'the button has been pressed '.$num. ' times';
 
 ?>
 <form action="skuska.php" method="post">
