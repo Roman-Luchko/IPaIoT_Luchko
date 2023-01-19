@@ -1,7 +1,7 @@
 <?php
         echo '<h1>index2.php web page with parameters</h1>';
 
-        echo "dsadadasdadas                ";
+        echo "uds                ";
 
         echo "try calcul";
         echo "<br>";
@@ -16,11 +16,14 @@
         echo $text;
         if($operacia == "*"){
         $result = $sn1 * $sn2;
-        }elseif($operacia == "-"){
+        }
+        if($operacia == "-"){
         $result = $sn1 - $sn2;
-        }elseif($operacia == "/"){
+        }
+        if($operacia == "/"){
         $result = $sn1 / $sn2;
-        }elseif($operacia == "+"){
+        }
+        if($operacia == "+"){
         $result = $sn1 + $sn2;
         }else 
         $result = 0;
