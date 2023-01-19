@@ -16,4 +16,5 @@ echo 'Вы нажали на кнопку '.$num. ' раз';
 ?>
 <form action="skuska.php" method="post">
     <input type="submit" name="but" value="<?php echo $num;?>">
+     <input type="submit" name="reset" value="<?php echo $num;?>">
 </form>
