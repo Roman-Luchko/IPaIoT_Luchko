@@ -3,7 +3,7 @@
   
   $file = fopen("text.txt","w");
 
-  echo "teplota je ->".teplota;  
+  echo "teplota je ->".$teplota;  
 
   if(isset($teplota)){
     $file = fwrite($file,$teplota);
