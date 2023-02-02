@@ -1,17 +1,12 @@
 <?php
-//-> php kod
-//-> создаю переменные, которые принимаю с esp
 $temperature = $_GET['temperature'];
 $humidity = $_GET['humidity'];
-$svetlo = $_GET['svetlo'];
-$voda = $_GET['voda'];
 $text = fopen("text.txt","r");
 $pocet = 0;
 
-if($voda == 2){
-          $text = fopen("text.txt","w");
-          fclose($text);
-}
+$text = fopen("text.txt","w");
+fclose($text);
+
 while (($buffer = fgets($text)) !== false) {
           $pocet++;
 }
@@ -22,16 +17,13 @@ if($pocet != 12){
           if(isset($temperature)){           
                     $text = fopen("text.txt","a");
                     $result = "temperature-> ".$temperature.
-                              " humidity-> ".$humidity.
-                              " svetlo-> ".$svetlo.
-                              " voda-> ".$voda."\n";
+                              " humidity-> ".$humidity."\n";
                     //echo $result;
                     fwrite($text,$result);
                     fclose($text);       
           }
 }
 elseif($pocet == 12){
-         echo "Tut kod rabotaet";
          if(isset($temperature)){     
                    //echo "fff";   
                    $text = file('text.txt');
@@ -70,9 +62,7 @@ elseif($pocet == 12){
                    file_put_contents('text.txt', $text);
                     
                    $result = "temperature-> ".$temperature.
-                              " humidity-> ".$humidity.
-                              " svetlo-> ".$svetlo.
-                              " voda-> ".$voda."\n";
+                              " humidity-> ".$humidity."\n";
                
                    $text[0] =  $result; 
                    file_put_contents('text.txt', $text);
@@ -89,6 +79,4 @@ while (!feof($text)) {
           echo '<br>';
 }
 fclose($text);
-//$res = file_get_contents("text.txt");
-//echo $res;
 ?>
